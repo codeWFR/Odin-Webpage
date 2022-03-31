@@ -119,3 +119,31 @@ nav {
     width: 150px;
     text-align: center;
 }
+
+.main2 {
+    padding-bottom: 96px;
+}
+
+.main3 {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 96px;
+}
+
+.main3 .quote {
+    font-size: 32px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.main3 .thor {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+}
+
+.main3 .container {
+    max-width: 800px;
+}
