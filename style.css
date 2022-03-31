@@ -184,3 +184,15 @@ nav {
     height: 38px;
     color: #F9FAF8;
 }
+
+footer {
+    background-color: #1F2937;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    color: #F9FAF8;
+}
