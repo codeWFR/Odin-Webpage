@@ -147,3 +147,40 @@ nav {
 .main3 .container {
     max-width: 800px;
 }
+
+.main4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main4 .container {
+    margin: 96px 0px;
+    padding: 0px 120px;
+    background-color: #3882F6;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    border-radius: 12px;
+}
+
+.main4 .container h1 {
+    margin-bottom: 0;
+    color: #F9FAF8;
+}
+
+.main4 .container p {
+    margin-top: 0;
+    color: #F9FAF8;
+}
+
+.main4 button {
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    border-radius: 12px;
+    width: 120px;
+    height: 38px;
+    color: #F9FAF8;
+}
