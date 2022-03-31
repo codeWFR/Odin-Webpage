@@ -17,6 +17,7 @@ a {
 .body-main-1 {
     background: #1F2937;
     padding: 0px 160px 0px 160px;
+    padding-bottom: 96px;
 }
 
 nav {
@@ -29,9 +30,11 @@ nav {
 .logo-main-1 a {
   font-size: 24px;
   color: #F9FAF8;
+  font-weight: bold;
 }
 
-.header-links a{
+.header-links a,
+.left p{
     font-size: 18px;
     color: #b9b9b9;
 }
@@ -42,11 +45,46 @@ nav {
 }
 
 .main1 article {
-    margin-top: 64px;
+    margin-top: 120px;
 }
 
-.main1 article h1 {
+.main1 section {
+    display: flex;
+}
+
+.left h1 {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    max-width: 400px;
+    margin: 0;
+}
+
+.left p {
+    max-width: 450px;
+}
+
+.placeholder-grey {
+    width: 550px;
+    height: 241px;
+    background-color: #6c7781; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #b9b9b9;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    margin-right: 120px;
+}
+
+.left button {
+    background-color: #3882F6;
+    height: 32px;
+    width: 120px;
+    color: white;
+    border: none;
+    border-radius: 8px;
 }
